@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#TEXT_COLOR
+TX[1]='\033[1;37m';  #WHITE
+TX[2]='\033[0;31m';  #RED
+TX[3]='\033[0;32m';  #GREEN
+TX[4]='\033[0;34m';  #BLUE
+TX[5]='\033[0;35m';  #PURPLE
+TX[6]='\033[0;30m';  #BLACK
+
+#BACKGROUND_COLOR
+BG[1]='\033[47m'; #WHITE
+BG[2]='\033[41m'; #RED
+BG[3]='\033[42m'; #GREEN
+BG[4]='\033[44m'; #BLUE
+BG[5]='\033[45m'; #PURPLE
+BG[6]='\033[40m'; #BLACK
+
+NC="\033[0m"; #NO COLOR
